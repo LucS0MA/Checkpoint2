@@ -37,11 +37,11 @@ class CountryResolver {
     }
 
     @Query(() => Country)
-    async getCountryById(@Arg('id') id: number) {
+    async getCountryByCode(@Arg('code') code: string) {
         try {
             const country = await Country.findOne({
                 where: {
-                    id
+                    code
                 },
             })
             return country

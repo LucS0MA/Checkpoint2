@@ -9,7 +9,7 @@
 
 
 -- STEP THREE (get a country by his id):
-![alt text](./img-readme/image-2.png)
+![alt text](./img-readme/image-5.png)
 
 
 -- STEP FOUR (get the countries by their continent):
